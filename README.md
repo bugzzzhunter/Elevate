@@ -9,3 +9,7 @@ The main window of app will provide with different options. Selecting an option 
 3. Load DLL - Place you DLL properly to gain privileges.
 
 There are more intentional bugs but you can ignore them and focus on the above listed ones.
+
+Installation:
+
+You can download the msi from release and install the application with defaults.
