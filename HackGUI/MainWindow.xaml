@@ -1,0 +1,28 @@
+﻿<Window x:Class="OtherGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Hack this GUI!" Height="450" Width="800">
+    <Grid>
+        <Label Content="About this application." HorizontalAlignment="Center" Margin="0,83,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label Content="You can try and escalate privileges on your windows machine using this application." HorizontalAlignment="Center" Height="40" Margin="0,144,0,0" VerticalAlignment="Top" Width="544"/>
+        <Label Content="1. Hack GUI: This is the GUI app where you should be able to obtain privileged cmd.exe" HorizontalAlignment="Center" Height="40" Margin="0,177,0,0" VerticalAlignment="Top" Width="544"/>
+
+        <Label HorizontalAlignment="Center" Height="59" Margin="0,217,0,0" VerticalAlignment="Top" Width="544">
+            <Label.Content>
+                <AccessText TextWrapping="Wrap" Text="2. Weak File/Folder Permissions: Here you should be able to obtain privileged cmd.exe by abusing privileged file/folder creation or cause DOS via deletion/overwriting existing file."/>
+            </Label.Content>
+        </Label>
+
+        <Label Content="3. Load DLL: Place your DLL to load it and gain higher privilege." HorizontalAlignment="Center" Height="40" Margin="0,263,0,0" VerticalAlignment="Top" Width="544"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="33" Margin="207,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="504">
+                Keep a track of your progress in a <Hyperlink NavigateUri="https://github.com/bugzzzhunter/" RequestNavigate="Hyperlink_RequestNavigate">
+                notepad
+                </Hyperlink>.
+        </TextBlock>
+
+    </Grid>
+</Window>
